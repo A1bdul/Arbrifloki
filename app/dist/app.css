@@ -24,32 +24,32 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.73;
-  color: #F6F6F6;
-  background-color: #050231;
+  color: rgba(250, 106, 28, 0.94);
+  background-color: #f8f8f8;
   position: relative;
   overflow-x: hidden;
   color: #A09FAF;
 }
 
 :root {
-  --primary-color: #FF4581;
+  --primary-color: #ff8645;;
 }
 
 .home-main {
-  --primary-color: #FF4581;
+  --primary-color: #ff8645;
 }
 
 .home-nft, .home-music {
-  --primary-color: #C004DE;
+  --primary-color: #f51414;
   --font-main: "Oswald";
 }
 
 .home-nft-v2 {
-  --primary-color: #1FD1F9;
+  --primary-color: #fdbeb0;
 }
 
 .home-defi-1 {
-  --primary-color: #2E72D2;
+  --primary-color: rgba(250, 106, 28, 0.94);
 }
 
 .home-defi-2, .home-defi-4 {
@@ -76,7 +76,7 @@ a {
   transition: all 0.3s;
   cursor: pointer;
   display: inline-block;
-  color: #fff;
+  color: #0a0000 !important;
 }
 a:hover {
   transition: all 0.3s;
@@ -98,7 +98,7 @@ h6,
   font-family: "Inter", sans-serif;
   font-weight: 600;
   line-height: 1.2;
-  color: #fff;
+  color: rgb(10, 0, 0);
   text-transform: capitalize;
 }
 
@@ -511,7 +511,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
   top: 0;
   opacity: 1;
   visibility: visible;
-  background: #050231;
+  background: #ffffff;
 }
 .header .header__body {
   display: flex;
@@ -528,7 +528,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
   position: relative;
   width: 26px;
   height: 26px;
-  background-color: transparent;
+  background-color: #0a0000;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-left: 30px;
@@ -1291,7 +1291,6 @@ h3, h5 {
 
 .banner-top.style-1 {
   padding: 231px 0 99px;
-  background: url("./../../assets/images/background/Slider.jpg") no-repeat;
   background-size: cover;
 }
 @media only screen and (max-width: 767px) {
@@ -2746,7 +2745,7 @@ h3, h5 {
   justify-content: center;
   min-width: 48px;
   height: 48px;
-  background: linear-gradient(294.72deg, #FF4581 9.05%, #4388DD 79.28%);
+  background: linear-gradient(294.72deg, #fdbeb0 9.05%, #f51414 79.28%);
   border-radius: 50%;
   margin-right: 17px;
 }
@@ -2773,7 +2772,7 @@ h3, h5 {
   width: 66px;
   height: 66px;
   border-radius: 50%;
-  background: linear-gradient(294.72deg, #FF4581 9.05%, #4388DD 79.28%);
+  background: linear-gradient(294.72deg, #fdbeb0 9.05%, rgba(250, 106, 28, 0.94) 79.28%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9204,7 +9203,7 @@ img.mfp-img {
   width: 40px;
   height: 40px;
   min-width: 40px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(250, 106, 28, 0.94);
   border-radius: 8px;
   margin-right: 12px;
   z-index: 9;
@@ -9361,14 +9360,13 @@ img.mfp-img {
 }
 
 .footer.style-2 {
-  background: url("./../../assets/images/background/bg-roadmap.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
-  background-color: rgba(61, 43, 111, 0.2);
+  background-color: rgb(255, 255, 255);
 }
 .footer.style-2 .footer__top {
   padding: 81px 0 60px;
-  border-bottom: 1px solid #13316B;
+  border-bottom: 1px solid #d1dffa;
 }
 .footer.style-2 .footer__top .content {
   text-align: center;
@@ -9407,7 +9405,7 @@ img.mfp-img {
 .footer.style-2 .footer__bottom p {
   margin-bottom: 0;
   font-size: 14px;
-  color: #fff;
+  color: #100000;
 }
 
 .footer.style-3 {
@@ -10543,7 +10541,7 @@ img.mfp-img {
 }
 
 .home-main p {
-  color: #F6F6F6;
+  color: #100000;
 }
 .home-main .about {
   padding: 80px 0;
@@ -10561,7 +10559,6 @@ img.mfp-img {
 }
 .home-main .features {
   padding: 80px 0 62px;
-  background: url("./../../assets/images/background/bg-choose.jpg") no-repeat;
   background-size: cover;
 }
 .home-main .documents.style-2 {
@@ -10807,7 +10804,7 @@ img.mfp-img {
   justify-content: center;
   position: relative;
   border: 2px solid transparent;
-  background: #050231;
+  background: rgba(250, 106, 28, 0.94);
   background-clip: padding-box;
 }
 .contact .contact__list li .icon::after {
@@ -10817,7 +10814,7 @@ img.mfp-img {
   bottom: -2px;
   left: -2px;
   right: -2px;
-  background: linear-gradient(to bottom right, #ff4581, #4388dd);
+  background: linear-gradient(to bottom right, #fdbeb0, #f51414);
   z-index: -1;
   border-radius: 50%;
 }
@@ -11003,10 +11000,6 @@ img.mfp-img {
 .page-token .token-details.style-1 .token-details__image {
   padding-top: 33px;
   margin-left: -48px;
-}
-
-.features, .token-details, .section-faq, .document {
-  background: #130F40;
 }
 
 .home-main .section-faq.style-1 {
