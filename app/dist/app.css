@@ -10728,13 +10728,13 @@ img.mfp-img {
 }
 
 .info-list {
-  display: flex;
-  flex-direction: column;
-  background: rgba(30, 27, 70, 0.5);
-  padding: 19px;
-  max-width: 490px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(229 150 93 / 91%);
+    padding: 19px;
+    max-width: 490px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
 }
 .info-list li {
   padding: 15px 20px 9px;
@@ -10745,7 +10745,7 @@ img.mfp-img {
   cursor: pointer;
 }
 .info-list li:hover, .info-list li.active {
-  background: linear-gradient(294.72deg, rgba(255, 69, 129, 0.5) 9.05%, rgba(67, 136, 221, 0.5) 79.28%);
+      background: linear-gradient(294.72deg, rgb(230 164 96 / 50%) 9.05%, rgb(241 144 70 / 81%) 79.28%);
 }
 .info-list li p {
   margin-bottom: 0;
